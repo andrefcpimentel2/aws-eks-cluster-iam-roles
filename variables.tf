@@ -4,6 +4,10 @@ variable "region" {
   default = "eu-west-2"
 }
 
+variable "role_arn" {
+  description = "name to pass to Name tag"
+  default = ""
+}
 
 variable "namespace" {
   description = <<EOH
